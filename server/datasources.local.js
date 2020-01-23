@@ -6,7 +6,7 @@ module.exports = {
     'connector': 'memory',
   },
   'MongoDB': {
-    'url': 'mongodb://localhost:27017',
+    'url': 'mongodb://heroku_6cdmdbvq:knj4jgbcr6pkds1n8tifp2bdct@ds213079.mlab.com:13079/heroku_6cdmdbvq',
     'name': 'MongoDB',
     'connector': 'mongodb',
   },
