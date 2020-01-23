@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-expressions */
+'use strict';
+
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const server = require('../server/server');
@@ -5,7 +8,7 @@ const server = require('../server/server');
 chai.use(chaiHttp);
 const expect = chai.expect;
 
-server.listen(4444);
+// server.listen(4444);
 
 describe('loopback server', function() {
   this.timeout(5000);
@@ -39,5 +42,4 @@ describe('loopback server', function() {
         done();
       });
   });
-
-})
+});
